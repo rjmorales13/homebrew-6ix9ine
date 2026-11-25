@@ -6,15 +6,14 @@ class Staywoke < Formula
 
   depends_on macos: :sonoma
 
-  # Replace both draft checksums with verified release checksums before merging.
   on_arm do
     url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.6/staywoke-v1.0.6-arm64.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "add928cc10dde793529d41a63dbac77060f3ca8d5abfc86f4b144ee0954e2943"
   end
 
   on_intel do
     url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.6/staywoke-v1.0.6-x86_64.tar.gz"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "c49882a9c02a2f4e4c8bd069575db3c55ced1e3c8507954d4cc17a7312d000d9"
   end
 
   def install
